@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PerseusModelStoreContainer" CdmEntityContainer="PerseusEntities">
+    <EntitySetMapping Name="helloworldinvariouslanguages">
+      <EntityTypeMapping TypeName="PerseusModel.helloworldinvariouslanguage">
+        <MappingFragment StoreEntitySet="helloworldinvariouslanguages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Interpretation" ColumnName="Interpretation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
